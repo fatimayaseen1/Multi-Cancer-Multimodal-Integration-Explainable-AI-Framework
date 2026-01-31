@@ -1,6 +1,8 @@
 # Multi-Cancer-Multimodal-Integration-Explainable-AI-Framework
 This project implements a high-performance multimodal deep learning system to predict diagnosis, prognosis, and treatment responses across three major cancer types: Esophageal, Breast, and Lung.
+
 **Project Architecture**
+
 **Unimodal Models**: Separate deep learning architectures for Clinical data (tabular), Imaging data (CT/MRI/Ultrasound using OpenCV), and Genomic data (mutation profiles).
 
 **Multimodal Integration**: A unified fusion model for each cancer type that processes all three data streams simultaneously, ensuring high-fidelity predictions based on a complete patient profile.
